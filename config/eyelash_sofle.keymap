@@ -88,11 +88,11 @@
 &none       &none       &kp G           &kp O            &kp RBKT         &kp E              &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &none       &none       &kp L           &kp I            &kp LBKT         &kp LC(LA(G))      &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &none       &none       &kp W           &kp M            &kp LC(T)        &kp LC(Z)          &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp SPACE   &kp SPACE   &kp LC(S)       &kp LC(S)        &kp LC(Z)        &none              &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp C_MUTE  &kp SPACE   &kp SPACE       &kp LC(S)        &kp LC(S)        &kp LC(Z)          &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "Drawing";
-            sensor-bindings = <&inc_dec_kp RBKT LBKT>;
+            sensor-bindings = <&inc_dec_kp LBKT RBKT>;
         };
 
         layer_2 {
