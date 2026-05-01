@@ -118,12 +118,12 @@ layers:
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - Ctl+S
-  - Ctl+S
-  - {t: Ctl+Z, type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Ctl+S, type: held}
+  - Ctl+Z
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
