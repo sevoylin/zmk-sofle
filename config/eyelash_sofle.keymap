@@ -92,7 +92,7 @@
             >;
 
             display-name = "Drawing";
-            sensor-bindings = <&inc_dec_kp LBKT RBKT>;
+            sensor-bindings = <&inc_dec_kp RBKT LBKT>;
         };
 
         layer_2 {
